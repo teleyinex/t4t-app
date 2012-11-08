@@ -2,15 +2,15 @@
   "version": "0.1",
   "name": "Test4Theory",
   "description": "Check your Test4Theory stats",
-  "launch_path": "/t4t-webapp/",
+  "launch_path": "/t4t-app/",
   "icons": {
     "16": "/img/icons/mortar-16.png",
     "48": "/img/icons/mortar-48.png",
-    "128": "/img/icons/mortar-128.png"
+    "128": "/img/icons/mortar-128.png",
   },
   "developer": {
     "name": "Citizen Cyberscience Centre",
-    "url": "http://lhcathome2.cern.ch"
+    "url": "http://lhcathome2.cern.ch",
   },
   "installs_allowed_from": ["*"],
   "appcache_path": "/cache.manifest",
@@ -18,7 +18,7 @@
     "es": {
       "description": "Tus estadísticas del proyecto Test4Theory",
       "developer": {
-        "url": "http://lhcathome2.cern.ch"
+        "url": "http://lhcathome2.cern.ch",
       }
     },
   },

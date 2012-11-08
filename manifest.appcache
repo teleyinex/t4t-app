@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# DFjTdS8fV61j5kzl9GpzQFZmeAI=
+# YmYuYiM8Tm7sgGDR+f36xzn9HlA=
 
 CACHE:
 .htaccess
@@ -86,15 +86,14 @@ js/lib/x-tag/tabbox.js
 js/lib/x-tag.js
 js/lib/package.json
 js/lib/.flotr2.js.un~
-js/.app.js.swp
 js/app.js
 README.textile
+manifest.webapp
 .manifest.webapp.un~
 index.html
 .index.html.un~
 t4t.appcache
 .t4t.appcache.un~
-manifest.webapp
 build.txt
 
 # catch-all for anything else
