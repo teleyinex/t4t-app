@@ -80,7 +80,6 @@ css/bootstrap.css
 js/app.js
 ----------------
 js/lib/jquery.js
-js/lib/throbber.js
 js/lib/d3.js
 js/lib/rickshaw.js
 js/lib/install.js
