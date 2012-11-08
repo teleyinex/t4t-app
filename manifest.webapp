@@ -13,14 +13,6 @@
     "url": "http://lhcathome2.cern.ch",
   },
   "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
-  "locales": {
-    "es": {
-      "description": "Tus estadísticas del proyecto Test4Theory",
-      "developer": {
-        "url": "http://lhcathome2.cern.ch",
-      }
-    },
-  },
+  "appcache_path": "/manifest.appcache",
   "default_locale": "en"
 }
