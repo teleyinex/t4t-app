@@ -1,18 +1,20 @@
 {
-  "version": "0.1",
-  "name": "Test4Theory",
-  "description": "Check your Test4Theory stats",
-  "launch_path": "/t4t-app/",
-  "icons": {
-    "16": "/img/icons/mortar-16.png",
-    "48": "/img/icons/mortar-48.png",
-    "128": "/img/icons/mortar-128.png",
-  },
-  "developer": {
-    "name": "Citizen Cyberscience Centre",
-    "url": "http://lhcathome2.cern.ch",
-  },
-  "installs_allowed_from": ["*"],
-  "appcache_path": "/manifest.appcache",
-  "default_locale": "en"
+    "version": "0.1",
+    "name": "Test4Theory",
+    "description": "Check your Test4Theory stats",
+    "launch_path": "/t4t-app/",
+    "icons": {
+        "16": "/img/icons/mortar-16.png",
+        "48": "/img/icons/mortar-48.png",
+        "128": "/img/icons/mortar-128.png"
+    },
+    "developer": {
+        "name": "Citizen Cyberscience Centre",
+        "url": "http://lhcathome2.cern.ch"
+    },
+    "installs_allowed_from": [
+        "*"
+    ],
+    "appcache_path": "/manifest.appcache",
+    "default_locale": "en"
 }

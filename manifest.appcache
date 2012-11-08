@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# FCY7LwyR6IA0Wfg1Lz0rowr0inQ=
+# qhCBNolBWBOHaB9abYjexcPdWDk=
 
 CACHE:
 .htaccess
@@ -91,9 +91,9 @@ README.textile
 index.html
 .index.html.un~
 manifest.webapp
+.manifest.webapp.un~
 t4t.appcache
 .t4t.appcache.un~
-.manifest.webapp.un~
 build.txt
 
 # catch-all for anything else
