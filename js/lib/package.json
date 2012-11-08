@@ -1,0 +1,8 @@
+{
+  "volo": {
+    "dependencies": {
+      "throbber": "github:aino/throbber.js/master",
+      "d3js": "github:webjars/d3js/master"
+    }
+  }
+}
