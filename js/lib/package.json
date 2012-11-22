@@ -2,7 +2,8 @@
   "volo": {
     "dependencies": {
       "throbber": "github:aino/throbber.js/master",
-      "d3js": "github:webjars/d3js/master"
+      "d3js": "github:webjars/d3js/master",
+      "jquery": "local:/home/teleyinex/Proyectos/t4t-app/www/js/lib/jquery.js"
     }
   }
 }
