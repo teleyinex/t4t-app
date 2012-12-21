@@ -1,12 +1,12 @@
 {
-    "version": "0.1",
+    "version": "0.2",
     "name": "Test4Theory",
     "description": "Check your Test4Theory stats",
     "launch_path": "/t4t-app/",
     "icons": {
-        "16": "/img/icons/mortar-16.png",
-        "48": "/img/icons/mortar-48.png",
-        "128": "/img/icons/mortar-128.png"
+        "16":  "http://daniellombrana.es/t4t-app/img/icons/mortar-16.png",
+        "48":  "http://daniellombrana.es/t4t-app/img/icons/mortar-48.png",
+        "128": "http://daniellombrana.es/t4t-app/img/icons/mortar-128.png"
     },
     "developer": {
         "name": "Citizen Cyberscience Centre",
@@ -15,6 +15,6 @@
     "installs_allowed_from": [
         "*"
     ],
-    "appcache_path": "/manifest.appcache",
+    "appcache_path": "http://daniellombrana.es/t4t-app/manifest.appcache",
     "default_locale": "en"
 }
