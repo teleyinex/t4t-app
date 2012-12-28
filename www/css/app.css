@@ -2,7 +2,39 @@
 @import "defaults.css";
 
 /* Uncomment these to use Twitter Bootstrap */
-/* @import "bootstrap.css"; */
-/* @import "bootstrap-responsive.css"; */
+@import "bootstrap.css";
+@import "bootstrap-responsive.css";
+@import "rickshaw.css";
 
 /* Your styles here */
+@import "opensans.css";
+@import "font-awesome.css";
+
+body {
+    background-image: url("../img/bg.png");
+}
+
+#throbber {
+    position:relative;
+    margin-top:0;
+    margin-left:0;
+    width: 100;
+    height: 100;
+    z-index: 99999;
+}
+
+.container {
+    padding: 10px;
+    font-family: 'Open Sans';
+}
+
+.card {
+    position: relative;
+    margin-top: 15px;
+    background: white;
+    border: 1px solid rgb(238, 238, 238);
+    padding: 10px;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+}

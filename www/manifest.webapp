@@ -1,32 +1,20 @@
 {
-  "version": "0.1",
-  "name": "My App",
-  "description": "Your new awesome Open Web App",
-  "launch_path": "/",
-  "icons": {
-    "16": "/img/icons/mortar-16.png",
-    "48": "/img/icons/mortar-48.png",
-    "128": "/img/icons/mortar-128.png"
-  },
-  "developer": {
-    "name": "Your Name",
-    "url": "http://yourawesomeapp.com"
-  },
-  "installs_allowed_from": ["*"],
-  "appcache_path": "/cache.manifest",
-  "locales": {
-    "es": {
-      "description": "Su nueva aplicación impresionante Open Web",
-      "developer": {
-        "url": "http://yourawesomeapp.com"
-      }
+    "version": "0.2",
+    "name": "Test4Theory",
+    "description": "Check your Test4Theory stats",
+    "launch_path": "/t4t-app/",
+    "icons": {
+        "16":  "http://daniellombrana.es/t4t-app/img/icons/mortar-16.png",
+        "48":  "http://daniellombrana.es/t4t-app/img/icons/mortar-48.png",
+        "128": "http://daniellombrana.es/t4t-app/img/icons/mortar-128.png"
     },
-    "it": {
-      "description": "Il vostro nuovo fantastico Open Web App",
-      "developer": {
-        "url": "http://yourawesomeapp.com"
-      }
-    }
-  },
-  "default_locale": "en"
+    "developer": {
+        "name": "Citizen Cyberscience Centre",
+        "url": "http://lhcathome2.cern.ch"
+    },
+    "installs_allowed_from": [
+        "*"
+    ],
+    "appcache_path": "/t4t-app/manifest.appcache",
+    "default_locale": "en"
 }

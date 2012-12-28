@@ -3,8 +3,8 @@
   <head>
     <meta charset="utf-8">
 
-    <title></title>
-    <meta name="description" content="">
+    <title>LHC@Home: Test4Theory</title>
+    <meta name="description" content="LHC@Home: Test4Theory web application">
 
     <!-- Mobile viewport optimized: h5bp.com/viewport -->
     <meta name="viewport" content="width=device-width">
@@ -28,6 +28,7 @@
          Modernizr enables HTML5 elements & feature detects for optimal performance.
          Create your own custom Modernizr build: www.modernizr.com/download/ -->
     <script src="js/lib/modernizr-2.5.3.min.js"></script>    
+    <script src="js/nonrequire/rickshaw.min.js"></script>    
   </head>
   <body>
     <!-- Self-hosted apps:
@@ -52,10 +53,63 @@
 
 
     <!-- Add your site or application content here -->
+    <div class="container-fluid">
+        <div id="offline" class="card" style="display:none">
+            <h5>Offline mode <small>there is no connection</small> </h5>
+        </div>
+        <div id="loading" class="alert alert-success" style="display:none">
+            <strong>Loading data...</strong>
+        </div>
+        <div id="settings" class="card" style="display:none">
+            <h1>Settings</h1>
+            <hr>
+            <form class="form-inline">
+              <input  id="boincId" type="text"   class="input-large" placeholder="Test4Theory BOINC ID">
+              <button id="save"    type="submit" class="btn">Save</button>
+            </form>
+        </div>
+        <div id="userStats" class="card" style="display:none">
+            <h1>Your Stats <small class="pull-right">
+                    <a id="updateBtn" class="btn btn-small" href="#">
+                        <i class="icon icon-refresh"></i> Update stats
+                    </a>
+                    <a id="settingsBtn" class="btn btn-small" href="#">
+                        <i class="icon icon-cog"></i> Settings
+                    </a>
+            </small></h1>
+            <hr>
+            <p><strong>CPU Time</strong>: <span id="cpu_time"></span></p>
+            <hr>
+            <p><strong>Number of events: </strong><span id="n_events"></span> <i id="billionare" class="icon icon-trophy" style="display:none;"></i></p>
+            <hr>
+            <p><strong>Number of Jobs: </strong><span id="n_jobs"></span></p>
+            <hr>
+            <p><strong>Number of Good Jobs: </strong><span id="n_good_jobs"></span></p>
+            <hr>
+            <p><strong>Number of attached hosts: </strong><span id="n_hosts"></span></p>
+        </div>
 
-
-
-
+        <div id="userCharts" class="card" style="display:none;">
+            <h1>Project Stats <small>last seven days</small></h1>
+            <hr>
+            <h2>CPU time</h2>
+            <div id="cpu_time_chart" style="height:120px;display:none"></div>
+            <hr>
+            <h2>New Number of Events</h2>
+            <div id="n_events_chart" style="height:120px;display:none"></div>
+            <hr>
+            <h2>New Number of Jobs</h2>
+            <div id="n_jobs_chart" style="height:120px;display:none"></div>
+            <hr>
+            <h2>New Number of Good Jobs</h2>
+            <div id="n_good_jobs_chart" style="height:120px;display:none"></div>
+            <hr>
+            <h2>New Number of Hosts</h2>
+            <div id="n_hosts_chart" style="height:120px;display:none"></div>
+        </div>
+    </div>
+    <footer style="margin-top:12px;">
+    </footer>
 
 
     <!-- JavaScript at the bottom for fast page loading: http://developer.yahoo.com/performance/rules.html#js_bottom -->
@@ -67,8 +121,6 @@
     <script type="text/javascript"
             data-main="js/app.js"
             src="js/lib/require.js"></script>
-
-
 
     <!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID.
          mathiasbynens.be/notes/async-analytics-snippet -->
