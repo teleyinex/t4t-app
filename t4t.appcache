@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# v1 - 2012-09-08
+# v2 - 2012-12-28
 CACHE:
 index.html
 /js/app.js
@@ -21,7 +21,7 @@ index.html
 /js/lib/modernizr-2.5.3.min.js
 /js/lib/package.json
 /js/lib/require.js
-/js/lib/rickshaw.js
+/js/nonrequire/rickshaw.min.js
 /js/lib/throbber.js
 /js/lib/x-tag.js
 /js/lib/x-tag/accordion.js
