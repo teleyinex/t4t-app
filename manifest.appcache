@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# oSQ4nT6vKes2552WqkOqHNSevXE=
+# z6pJNo+FBgAnbh1lJf11U/n6Ylw=
 
 CACHE:
 .htaccess
@@ -91,11 +91,11 @@ js/.app.js.un~
 js/app.js
 README.textile
 index.html
-.manifest.webapp.un~
+manifest.webapp
 t4t.appcache
 .t4t.appcache.un~
 .index.html.un~
-manifest.webapp
+.manifest.webapp.un~
 build.txt
 
 # catch-all for anything else
