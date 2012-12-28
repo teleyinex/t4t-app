@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# QrtoA1aCQeC5KFaNVsyQRmFcHYQ=
+# 9iPxhxURTbnoCg132A8zhFUIi3g=
 
 CACHE:
 .htaccess
@@ -57,6 +57,7 @@ img/icons/mortar-48.png
 img/bo_play_pattern/bo_play_pattern_@2X.png
 img/bo_play_pattern/readme.txt
 img/bg.png
+img/src/test4theory-icon.svg
 js/lib/bootstrap/alert.js
 js/lib/bootstrap/button.js
 js/lib/bootstrap/carousel.js
@@ -90,11 +91,11 @@ js/.app.js.un~
 js/app.js
 README.textile
 index.html
-manifest.webapp
 .manifest.webapp.un~
 t4t.appcache
 .t4t.appcache.un~
 .index.html.un~
+manifest.webapp
 build.txt
 
 # catch-all for anything else
