@@ -15,6 +15,6 @@
     "installs_allowed_from": [
         "*"
     ],
-    "appcache_path": "t4t.appcache",
+    "appcache_path": "/t4t-app/t4t.appcache",
     "default_locale": "en"
 }
